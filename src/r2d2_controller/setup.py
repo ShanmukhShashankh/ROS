@@ -24,7 +24,8 @@ setup(
             "draw_circle = r2d2_controller.draw_circle:main",
             "pose_subscriber = r2d2_controller.pose_subscriber:main",
             "turtle_controller = r2d2_controller.turtle_controller:main",
-            "number_publisher = r2d2_controller.number_publisher:main"
+            "number_publisher = r2d2_controller.number_publisher:main",
+            "number_counter = r2d2_controller.number_counter:main"
         ],
     },
 )

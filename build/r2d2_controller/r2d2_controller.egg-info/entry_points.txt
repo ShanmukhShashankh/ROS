@@ -1,5 +1,6 @@
 [console_scripts]
 draw_circle = r2d2_controller.draw_circle:main
+number_counter = r2d2_controller.number_counter:main
 number_publisher = r2d2_controller.number_publisher:main
 pose_subscriber = r2d2_controller.pose_subscriber:main
 test_node = r2d2_controller.my_first_node:main

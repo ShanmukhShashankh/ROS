@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "cpp_node" "draw_circle" "pose_subsciber" "turtle_controller" "number_counter" "DESTINATION" "lib/r2d2_controller_cpp")
+# install("TARGETS" "cpp_node" "draw_circle" "pose_subsciber" "turtle_controller" "number_counter" "number_publisher" "DESTINATION" "lib/r2d2_controller_cpp")
 include("/home/shanmukh/ros2_ws/build/r2d2_controller_cpp/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/shanmukh/ros2_ws/build/r2d2_controller_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/r2d2_controller_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

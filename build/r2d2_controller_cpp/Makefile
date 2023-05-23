@@ -262,6 +262,19 @@ number_counter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/build
 .PHONY : number_counter/fast
 
+#=============================================================================
+# Target rules for targets named number_publisher
+
+# Build rule for target.
+number_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 number_publisher
+.PHONY : number_publisher
+
+# fast build rule for target.
+number_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/build
+.PHONY : number_publisher/fast
+
 src/draw_circle.o: src/draw_circle.cpp.o
 .PHONY : src/draw_circle.o
 
@@ -334,6 +347,30 @@ src/number_counter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/number_counter.cpp.s
 .PHONY : src/number_counter.cpp.s
 
+src/number_publisher.o: src/number_publisher.cpp.o
+.PHONY : src/number_publisher.o
+
+# target to build an object file
+src/number_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o
+.PHONY : src/number_publisher.cpp.o
+
+src/number_publisher.i: src/number_publisher.cpp.i
+.PHONY : src/number_publisher.i
+
+# target to preprocess a source file
+src/number_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/src/number_publisher.cpp.i
+.PHONY : src/number_publisher.cpp.i
+
+src/number_publisher.s: src/number_publisher.cpp.s
+.PHONY : src/number_publisher.s
+
+# target to generate assembly for a file
+src/number_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/src/number_publisher.cpp.s
+.PHONY : src/number_publisher.cpp.s
+
 src/pose_subscriber.o: src/pose_subscriber.cpp.o
 .PHONY : src/pose_subscriber.o
 
@@ -400,6 +437,7 @@ help:
 	@echo "... cpp_node"
 	@echo "... draw_circle"
 	@echo "... number_counter"
+	@echo "... number_publisher"
 	@echo "... pose_subsciber"
 	@echo "... turtle_controller"
 	@echo "... src/draw_circle.o"
@@ -411,6 +449,9 @@ help:
 	@echo "... src/number_counter.o"
 	@echo "... src/number_counter.i"
 	@echo "... src/number_counter.s"
+	@echo "... src/number_publisher.o"
+	@echo "... src/number_publisher.i"
+	@echo "... src/number_publisher.s"
 	@echo "... src/pose_subscriber.o"
 	@echo "... src/pose_subscriber.i"
 	@echo "... src/pose_subscriber.s"

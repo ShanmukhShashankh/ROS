@@ -747,4 +747,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/pose_subsciber.dir/DependInfo.cmake"
   "CMakeFiles/turtle_controller.dir/DependInfo.cmake"
   "CMakeFiles/number_counter.dir/DependInfo.cmake"
+  "CMakeFiles/number_publisher.dir/DependInfo.cmake"
   )
