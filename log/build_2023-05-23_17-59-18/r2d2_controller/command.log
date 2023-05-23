@@ -1,0 +1,1 @@
+Invoking command in '/home/shanmukh/ros2_ws/build/r2d2_controller': PYTHONPATH=/home/shanmukh/ros2_ws/build/r2d2_controller/prefix_override:/home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shanmukh/ros2_ws/build/r2d2_controller/build --no-deps install_data

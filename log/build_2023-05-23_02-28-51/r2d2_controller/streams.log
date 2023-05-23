@@ -1,0 +1,30 @@
+[0.464s] Invoking command in '/home/shanmukh/ros2_ws/build/r2d2_controller': PYTHONPATH=/home/shanmukh/ros2_ws/build/r2d2_controller/prefix_override:/home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/shanmukh/ros2_ws/build/r2d2_controller/build
+[0.646s] running develop
+[0.797s] Invoked command in '/home/shanmukh/ros2_ws/build/r2d2_controller' returned '0': PYTHONPATH=/home/shanmukh/ros2_ws/build/r2d2_controller/prefix_override:/home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/shanmukh/ros2_ws/build/r2d2_controller/build
+[0.799s] Invoking command in '/home/shanmukh/ros2_ws/src/r2d2_controller': PYTHONPATH=/home/shanmukh/ros2_ws/build/r2d2_controller/prefix_override:/home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/r2d2_controller build --build-base /home/shanmukh/ros2_ws/build/r2d2_controller/build install --record /home/shanmukh/ros2_ws/build/r2d2_controller/install.log --single-version-externally-managed
+[0.974s] running egg_info
+[0.974s] writing ../../build/r2d2_controller/r2d2_controller.egg-info/PKG-INFO
+[0.975s] writing dependency_links to ../../build/r2d2_controller/r2d2_controller.egg-info/dependency_links.txt
+[0.975s] writing entry points to ../../build/r2d2_controller/r2d2_controller.egg-info/entry_points.txt
+[0.975s] writing requirements to ../../build/r2d2_controller/r2d2_controller.egg-info/requires.txt
+[0.975s] writing top-level names to ../../build/r2d2_controller/r2d2_controller.egg-info/top_level.txt
+[0.976s] reading manifest file '../../build/r2d2_controller/r2d2_controller.egg-info/SOURCES.txt'
+[0.976s] writing manifest file '../../build/r2d2_controller/r2d2_controller.egg-info/SOURCES.txt'
+[0.976s] running build
+[0.976s] running build_py
+[0.977s] copying r2d2_controller/turtle_controller.py -> /home/shanmukh/ros2_ws/build/r2d2_controller/build/lib/r2d2_controller
+[0.977s] running install
+[0.977s] running install_lib
+[0.977s] copying /home/shanmukh/ros2_ws/build/r2d2_controller/build/lib/r2d2_controller/turtle_controller.py -> /home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages/r2d2_controller
+[0.978s] byte-compiling /home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages/r2d2_controller/turtle_controller.py to turtle_controller.cpython-310.pyc
+[0.978s] running install_data
+[0.979s] running install_egg_info
+[0.980s] removing '/home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages/r2d2_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.980s] Copying ../../build/r2d2_controller/r2d2_controller.egg-info to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages/r2d2_controller-0.0.0-py3.10.egg-info
+[0.980s] running install_scripts
+[0.992s] Installing draw_circle script to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/r2d2_controller
+[0.992s] Installing pose_subscriber script to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/r2d2_controller
+[0.992s] Installing test_node script to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/r2d2_controller
+[0.992s] Installing turtle_controller script to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/r2d2_controller
+[0.992s] writing list of installed files to '/home/shanmukh/ros2_ws/build/r2d2_controller/install.log'
+[1.012s] Invoked command in '/home/shanmukh/ros2_ws/src/r2d2_controller' returned '0': PYTHONPATH=/home/shanmukh/ros2_ws/build/r2d2_controller/prefix_override:/home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/r2d2_controller build --build-base /home/shanmukh/ros2_ws/build/r2d2_controller/build install --record /home/shanmukh/ros2_ws/build/r2d2_controller/install.log --single-version-externally-managed

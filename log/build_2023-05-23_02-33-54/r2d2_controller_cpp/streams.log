@@ -1,0 +1,31 @@
+[0.008s] Invoking command in '/home/shanmukh/ros2_ws/build/r2d2_controller_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shanmukh/ros2_ws/install/r2d2_controller:/opt/ros/humble /usr/bin/cmake --build /home/shanmukh/ros2_ws/build/r2d2_controller_cpp -- -j8 -l8
+[0.038s] [ 62%] Built target pose_subsciber
+[0.038s] [ 62%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[0.038s] [ 62%] Built target cpp_node
+[0.038s] [ 87%] Built target draw_circle
+[5.935s] [100%] [32m[1mLinking CXX executable turtle_controller[0m
+[6.239s] [100%] Built target turtle_controller
+[6.246s] Invoked command in '/home/shanmukh/ros2_ws/build/r2d2_controller_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shanmukh/ros2_ws/install/r2d2_controller:/opt/ros/humble /usr/bin/cmake --build /home/shanmukh/ros2_ws/build/r2d2_controller_cpp -- -j8 -l8
+[6.270s] Invoking command in '/home/shanmukh/ros2_ws/build/r2d2_controller_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shanmukh/ros2_ws/install/r2d2_controller:/opt/ros/humble /usr/bin/cmake --install /home/shanmukh/ros2_ws/build/r2d2_controller_cpp
+[6.273s] -- Install configuration: ""
+[6.273s] -- Execute custom install script
+[6.274s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/lib/r2d2_controller_cpp/cpp_node
+[6.274s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/lib/r2d2_controller_cpp/draw_circle
+[6.274s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/lib/r2d2_controller_cpp/pose_subsciber
+[6.274s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/lib/r2d2_controller_cpp/turtle_controller
+[6.274s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/ament_index/resource_index/package_run_dependencies/r2d2_controller_cpp
+[6.274s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/ament_index/resource_index/parent_prefix_path/r2d2_controller_cpp
+[6.274s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/environment/ament_prefix_path.sh
+[6.274s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/environment/ament_prefix_path.dsv
+[6.274s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/environment/path.sh
+[6.275s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/environment/path.dsv
+[6.275s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/local_setup.bash
+[6.275s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/local_setup.sh
+[6.275s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/local_setup.zsh
+[6.275s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/local_setup.dsv
+[6.275s] -- Symlinking: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/package.dsv
+[6.280s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/ament_index/resource_index/packages/r2d2_controller_cpp
+[6.280s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/cmake/r2d2_controller_cppConfig.cmake
+[6.280s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/cmake/r2d2_controller_cppConfig-version.cmake
+[6.280s] -- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/package.xml
+[6.282s] Invoked command in '/home/shanmukh/ros2_ws/build/r2d2_controller_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shanmukh/ros2_ws/install/r2d2_controller:/opt/ros/humble /usr/bin/cmake --install /home/shanmukh/ros2_ws/build/r2d2_controller_cpp

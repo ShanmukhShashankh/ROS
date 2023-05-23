@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/r2d2_controller/r2d2_controller.egg-info
+writing ../../build/r2d2_controller/r2d2_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/r2d2_controller/r2d2_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/r2d2_controller/r2d2_controller.egg-info/entry_points.txt
+writing requirements to ../../build/r2d2_controller/r2d2_controller.egg-info/requires.txt
+writing top-level names to ../../build/r2d2_controller/r2d2_controller.egg-info/top_level.txt
+writing manifest file '../../build/r2d2_controller/r2d2_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/r2d2_controller/r2d2_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/r2d2_controller/r2d2_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shanmukh/ros2_ws/build/r2d2_controller/build
+creating /home/shanmukh/ros2_ws/build/r2d2_controller/build/lib
+creating /home/shanmukh/ros2_ws/build/r2d2_controller/build/lib/r2d2_controller
+copying r2d2_controller/__init__.py -> /home/shanmukh/ros2_ws/build/r2d2_controller/build/lib/r2d2_controller
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages/r2d2_controller
+copying /home/shanmukh/ros2_ws/build/r2d2_controller/build/lib/r2d2_controller/__init__.py -> /home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages/r2d2_controller
+byte-compiling /home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages/r2d2_controller/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/shanmukh/ros2_ws/install/r2d2_controller/share/ament_index
+creating /home/shanmukh/ros2_ws/install/r2d2_controller/share/ament_index/resource_index
+creating /home/shanmukh/ros2_ws/install/r2d2_controller/share/ament_index/resource_index/packages
+copying resource/r2d2_controller -> /home/shanmukh/ros2_ws/install/r2d2_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/shanmukh/ros2_ws/install/r2d2_controller/share/r2d2_controller
+running install_egg_info
+Copying ../../build/r2d2_controller/r2d2_controller.egg-info to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages/r2d2_controller-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/shanmukh/ros2_ws/build/r2d2_controller/install.log'

@@ -1,0 +1,20 @@
+[0.450s] Invoking command in '/home/shanmukh/ros2_ws/build/r2d2_controller': PYTHONPATH=/home/shanmukh/ros2_ws/build/r2d2_controller/prefix_override:/home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shanmukh/ros2_ws/build/r2d2_controller/build --no-deps install_data
+[0.640s] running develop
+[0.756s] running egg_info
+[0.757s] writing r2d2_controller.egg-info/PKG-INFO
+[0.757s] writing dependency_links to r2d2_controller.egg-info/dependency_links.txt
+[0.757s] writing entry points to r2d2_controller.egg-info/entry_points.txt
+[0.757s] writing requirements to r2d2_controller.egg-info/requires.txt
+[0.757s] writing top-level names to r2d2_controller.egg-info/top_level.txt
+[0.758s] reading manifest file 'r2d2_controller.egg-info/SOURCES.txt'
+[0.759s] writing manifest file 'r2d2_controller.egg-info/SOURCES.txt'
+[0.760s] running build_ext
+[0.760s] Creating /home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages/r2d2-controller.egg-link (link to .)
+[0.760s] Installing draw_circle script to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/r2d2_controller
+[0.760s] Installing pose_subscriber script to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/r2d2_controller
+[0.760s] Installing test_node script to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/r2d2_controller
+[0.760s] Installing turtle_controller script to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/r2d2_controller
+[0.760s] 
+[0.760s] Installed /home/shanmukh/ros2_ws/build/r2d2_controller
+[0.761s] running install_data
+[0.782s] Invoked command in '/home/shanmukh/ros2_ws/build/r2d2_controller' returned '0': PYTHONPATH=/home/shanmukh/ros2_ws/build/r2d2_controller/prefix_override:/home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shanmukh/ros2_ws/build/r2d2_controller/build --no-deps install_data

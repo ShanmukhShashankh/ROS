@@ -1,0 +1,11 @@
+[01m[K/home/shanmukh/ros2_ws/src/r2d2_controller_cpp/src/turtle_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleControllerNode::pose_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/shanmukh/ros2_ws/src/r2d2_controller_cpp/src/turtle_controller.cpp:35:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTurtleControllerNode::call_set_pen_service(int, int, int, double)[m[K’
+   35 |                 [01;31m[Kthis->call_set_pen_service(0,255,0,3.0)[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/shanmukh/ros2_ws/src/r2d2_controller_cpp/src/turtle_controller.cpp:39:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid TurtleControllerNode::call_set_pen_service(int, int, int, int, int)[m[K’
+   39 |         void [01;36m[Kcall_set_pen_service[m[K(int r, int g, int b, int width, int off){
+      |              [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shanmukh/ros2_ws/src/r2d2_controller_cpp/src/turtle_controller.cpp:39:14:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 4 provided
+gmake[2]: *** [CMakeFiles/turtle_controller.dir/build.make:76: CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/turtle_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

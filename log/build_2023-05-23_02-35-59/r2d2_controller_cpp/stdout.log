@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_controller[0m
+[ 75%] Built target draw_circle
+[ 75%] Built target pose_subsciber
+[ 75%] Built target cpp_node
+[ 87%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m

@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.000100] (-) JobUnselected: {'identifier': 'r2d2_controller'}
+[0.000122] (r2d2_controller_cpp) JobQueued: {'identifier': 'r2d2_controller_cpp', 'dependencies': OrderedDict()}
+[0.000136] (r2d2_controller_cpp) JobStarted: {'identifier': 'r2d2_controller_cpp'}
+[0.006820] (r2d2_controller_cpp) JobProgress: {'identifier': 'r2d2_controller_cpp', 'progress': 'cmake'}
+[0.007111] (r2d2_controller_cpp) JobProgress: {'identifier': 'r2d2_controller_cpp', 'progress': 'build'}
+[0.007548] (r2d2_controller_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shanmukh/ros2_ws/build/r2d2_controller_cpp', '--', '-j8', '-l8'], 'cwd': '/home/shanmukh/ros2_ws/build/r2d2_controller_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,9426,0'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shanmukh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shanmukh'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/shanmukh'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/shanmukh/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shanmukh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TF_ENABLE_ONEDNN_OPTS', '0'), ('USERNAME', 'shanmukh'), ('TERM', 'screen'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/shanmukh/.local/bin:/home/shanmukh/miniconda3/condabin:/opt/ros/humble/bin:/home/shanmukh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ASUS-TUF-DASH-F15:@/tmp/.ICE-unix/2649,unix/ASUS-TUF-DASH-F15:/tmp/.ICE-unix/2649'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8073a665_561e_4550_9c10_142b4922ca31'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.493'), ('TERM_PROGRAM', 'tmux'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '33'), ('AMENT_PREFIX_PATH', '/home/shanmukh/ros2_ws/install/r2d2_controller_cpp:/home/shanmukh/ros2_ws/install/r2d2_controller:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/shanmukh/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shanmukh/ros2_ws/build/r2d2_controller_cpp'), ('ROS_LOCALHOST_ID', '1'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shanmukh/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/home/shanmukh/ros2_ws/install/r2d2_controller_cpp:/home/shanmukh/ros2_ws/install/r2d2_controller:/opt/ros/humble')]), 'shell': False}
+[0.033160] (r2d2_controller_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_controller\x1b[0m\n'}
+[0.040621] (r2d2_controller_cpp) StdoutLine: {'line': b'[ 75%] Built target draw_circle\n'}
+[0.040820] (r2d2_controller_cpp) StdoutLine: {'line': b'[ 75%] Built target cpp_node\n'}
+[0.040881] (r2d2_controller_cpp) StdoutLine: {'line': b'[ 75%] Built target pose_subsciber\n'}
+[0.042153] (r2d2_controller_cpp) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o\x1b[0m\n'}
+[0.099476] (-) TimerEvent: {}
+[0.199781] (-) TimerEvent: {}
+[0.300100] (-) TimerEvent: {}
+[0.400413] (-) TimerEvent: {}
+[0.500717] (-) TimerEvent: {}
+[0.601048] (-) TimerEvent: {}
+[0.701375] (-) TimerEvent: {}
+[0.801699] (-) TimerEvent: {}
+[0.902023] (-) TimerEvent: {}
+[1.002361] (-) TimerEvent: {}
+[1.102703] (-) TimerEvent: {}
+[1.203048] (-) TimerEvent: {}
+[1.303365] (-) TimerEvent: {}
+[1.403692] (-) TimerEvent: {}
+[1.504008] (-) TimerEvent: {}
+[1.604331] (-) TimerEvent: {}
+[1.704654] (-) TimerEvent: {}
+[1.804980] (-) TimerEvent: {}
+[1.905306] (-) TimerEvent: {}
+[2.005706] (-) TimerEvent: {}
+[2.105996] (-) TimerEvent: {}
+[2.206293] (-) TimerEvent: {}
+[2.306559] (-) TimerEvent: {}
+[2.406895] (-) TimerEvent: {}
+[2.507179] (-) TimerEvent: {}
+[2.607478] (-) TimerEvent: {}
+[2.707802] (-) TimerEvent: {}
+[2.808095] (-) TimerEvent: {}
+[2.908417] (-) TimerEvent: {}
+[3.008763] (-) TimerEvent: {}
+[3.109059] (-) TimerEvent: {}
+[3.209323] (-) TimerEvent: {}
+[3.309652] (-) TimerEvent: {}
+[3.409995] (-) TimerEvent: {}
+[3.510339] (-) TimerEvent: {}
+[3.610642] (-) TimerEvent: {}
+[3.710898] (-) TimerEvent: {}
+[3.811144] (-) TimerEvent: {}
+[3.911414] (-) TimerEvent: {}
+[4.011669] (-) TimerEvent: {}
+[4.111966] (-) TimerEvent: {}
+[4.212200] (-) TimerEvent: {}
+[4.312467] (-) TimerEvent: {}
+[4.412767] (-) TimerEvent: {}
+[4.513015] (-) TimerEvent: {}
+[4.613287] (-) TimerEvent: {}
+[4.713584] (-) TimerEvent: {}
+[4.813846] (-) TimerEvent: {}
+[4.914139] (-) TimerEvent: {}
+[5.014398] (-) TimerEvent: {}
+[5.114649] (-) TimerEvent: {}
+[5.214896] (-) TimerEvent: {}
+[5.315146] (-) TimerEvent: {}
+[5.415383] (-) TimerEvent: {}
+[5.515628] (-) TimerEvent: {}
+[5.615897] (-) TimerEvent: {}
+[5.716195] (-) TimerEvent: {}
+[5.768277] (r2d2_controller_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_controller\x1b[0m\n'}
+[5.816318] (-) TimerEvent: {}
+[5.916647] (-) TimerEvent: {}
+[6.016939] (-) TimerEvent: {}
+[6.088197] (r2d2_controller_cpp) StdoutLine: {'line': b'[100%] Built target turtle_controller\n'}
+[6.095424] (r2d2_controller_cpp) CommandEnded: {'returncode': 0}
+[6.117086] (-) TimerEvent: {}
+[6.120680] (r2d2_controller_cpp) JobProgress: {'identifier': 'r2d2_controller_cpp', 'progress': 'install'}
+[6.128764] (r2d2_controller_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shanmukh/ros2_ws/build/r2d2_controller_cpp'], 'cwd': '/home/shanmukh/ros2_ws/build/r2d2_controller_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,9426,0'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shanmukh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shanmukh'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/shanmukh'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/shanmukh/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shanmukh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TF_ENABLE_ONEDNN_OPTS', '0'), ('USERNAME', 'shanmukh'), ('TERM', 'screen'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/shanmukh/.local/bin:/home/shanmukh/miniconda3/condabin:/opt/ros/humble/bin:/home/shanmukh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ASUS-TUF-DASH-F15:@/tmp/.ICE-unix/2649,unix/ASUS-TUF-DASH-F15:/tmp/.ICE-unix/2649'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8073a665_561e_4550_9c10_142b4922ca31'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.493'), ('TERM_PROGRAM', 'tmux'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '33'), ('AMENT_PREFIX_PATH', '/home/shanmukh/ros2_ws/install/r2d2_controller_cpp:/home/shanmukh/ros2_ws/install/r2d2_controller:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/shanmukh/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shanmukh/ros2_ws/build/r2d2_controller_cpp'), ('ROS_LOCALHOST_ID', '1'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shanmukh/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/home/shanmukh/ros2_ws/install/r2d2_controller_cpp:/home/shanmukh/ros2_ws/install/r2d2_controller:/opt/ros/humble')]), 'shell': False}
+[6.136416] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.137026] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.137375] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/lib/r2d2_controller_cpp/cpp_node\n'}
+[6.137562] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/lib/r2d2_controller_cpp/draw_circle\n'}
+[6.137805] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/lib/r2d2_controller_cpp/pose_subsciber\n'}
+[6.138106] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/lib/r2d2_controller_cpp/turtle_controller\n'}
+[6.138345] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/ament_index/resource_index/package_run_dependencies/r2d2_controller_cpp\n'}
+[6.138509] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/ament_index/resource_index/parent_prefix_path/r2d2_controller_cpp\n'}
+[6.138674] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/environment/ament_prefix_path.sh\n'}
+[6.138832] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/environment/ament_prefix_path.dsv\n'}
+[6.138982] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/environment/path.sh\n'}
+[6.139122] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/environment/path.dsv\n'}
+[6.139266] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/local_setup.bash\n'}
+[6.139405] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/local_setup.sh\n'}
+[6.139553] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/local_setup.zsh\n'}
+[6.139679] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/local_setup.dsv\n'}
+[6.139784] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Symlinking: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/package.dsv\n'}
+[6.149577] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/ament_index/resource_index/packages/r2d2_controller_cpp\n'}
+[6.149765] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/cmake/r2d2_controller_cppConfig.cmake\n'}
+[6.149892] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/cmake/r2d2_controller_cppConfig-version.cmake\n'}
+[6.150039] (r2d2_controller_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shanmukh/ros2_ws/install/r2d2_controller_cpp/share/r2d2_controller_cpp/package.xml\n'}
+[6.152036] (r2d2_controller_cpp) CommandEnded: {'returncode': 0}
+[6.189195] (r2d2_controller_cpp) JobEnded: {'identifier': 'r2d2_controller_cpp', 'rc': 0}
+[6.189592] (-) EventReactorShutdown: {}

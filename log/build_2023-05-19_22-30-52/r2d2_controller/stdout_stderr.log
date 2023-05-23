@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing r2d2_controller.egg-info/PKG-INFO
+writing dependency_links to r2d2_controller.egg-info/dependency_links.txt
+writing entry points to r2d2_controller.egg-info/entry_points.txt
+writing requirements to r2d2_controller.egg-info/requires.txt
+writing top-level names to r2d2_controller.egg-info/top_level.txt
+reading manifest file 'r2d2_controller.egg-info/SOURCES.txt'
+writing manifest file 'r2d2_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages/r2d2-controller.egg-link (link to .)
+Installing draw_circle script to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/r2d2_controller
+Installing pose_subscriber script to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/r2d2_controller
+Installing test_node script to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/r2d2_controller
+
+Installed /home/shanmukh/ros2_ws/build/r2d2_controller
+running install_data
