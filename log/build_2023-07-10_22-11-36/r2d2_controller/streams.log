@@ -1,0 +1,29 @@
+[0.557s] Invoking command in '/home/shanmukh/ros2_ws/build/r2d2_controller': PYTHONPATH=/home/shanmukh/ros2_ws/build/r2d2_controller/prefix_override:/home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/shanmukh/ros2_ws/build/r2d2_controller/build
+[0.746s] running develop
+[0.909s] Invoked command in '/home/shanmukh/ros2_ws/build/r2d2_controller' returned '0': PYTHONPATH=/home/shanmukh/ros2_ws/build/r2d2_controller/prefix_override:/home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/shanmukh/ros2_ws/build/r2d2_controller/build
+[0.909s] Invoking command in '/home/shanmukh/ros2_ws/src/r2d2_controller': PYTHONPATH=/home/shanmukh/ros2_ws/build/r2d2_controller/prefix_override:/home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/r2d2_controller build --build-base /home/shanmukh/ros2_ws/build/r2d2_controller/build install --record /home/shanmukh/ros2_ws/build/r2d2_controller/install.log --single-version-externally-managed
+[1.085s] running egg_info
+[1.085s] writing ../../build/r2d2_controller/r2d2_controller.egg-info/PKG-INFO
+[1.093s] writing dependency_links to ../../build/r2d2_controller/r2d2_controller.egg-info/dependency_links.txt
+[1.093s] writing entry points to ../../build/r2d2_controller/r2d2_controller.egg-info/entry_points.txt
+[1.093s] writing requirements to ../../build/r2d2_controller/r2d2_controller.egg-info/requires.txt
+[1.093s] writing top-level names to ../../build/r2d2_controller/r2d2_controller.egg-info/top_level.txt
+[1.095s] reading manifest file '../../build/r2d2_controller/r2d2_controller.egg-info/SOURCES.txt'
+[1.096s] writing manifest file '../../build/r2d2_controller/r2d2_controller.egg-info/SOURCES.txt'
+[1.096s] running build
+[1.096s] running build_py
+[1.097s] running install
+[1.097s] running install_lib
+[1.098s] running install_data
+[1.099s] running install_egg_info
+[1.100s] removing '/home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages/r2d2_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.100s] Copying ../../build/r2d2_controller/r2d2_controller.egg-info to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages/r2d2_controller-0.0.0-py3.10.egg-info
+[1.100s] running install_scripts
+[1.113s] Installing draw_circle script to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/r2d2_controller
+[1.113s] Installing number_counter script to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/r2d2_controller
+[1.113s] Installing number_publisher script to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/r2d2_controller
+[1.113s] Installing pose_subscriber script to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/r2d2_controller
+[1.113s] Installing test_node script to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/r2d2_controller
+[1.113s] Installing turtle_controller script to /home/shanmukh/ros2_ws/install/r2d2_controller/lib/r2d2_controller
+[1.113s] writing list of installed files to '/home/shanmukh/ros2_ws/build/r2d2_controller/install.log'
+[1.131s] Invoked command in '/home/shanmukh/ros2_ws/src/r2d2_controller' returned '0': PYTHONPATH=/home/shanmukh/ros2_ws/build/r2d2_controller/prefix_override:/home/shanmukh/ros2_ws/install/r2d2_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/r2d2_controller build --build-base /home/shanmukh/ros2_ws/build/r2d2_controller/build install --record /home/shanmukh/ros2_ws/build/r2d2_controller/install.log --single-version-externally-managed
